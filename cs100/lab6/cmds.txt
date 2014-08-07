@@ -1,0 +1,19 @@
+//Ben Quach and Calvin Deng
+1. ps -aux
+2. kill -SIGCONT PID
+   fg 
+
+3. ps -eo pid, cmd, etime | grep [01-9999999]:..:..
+4. find ~ \! -user bquac002 -print
+5. sed '$d' < test | sed 1d
+6. at 2am
+   ls -l ~ | grep [0-24]:..
+   ctrl-D
+7. grep -n -r -H "int main();" .
+8. tar -czvf test.tgz hw
+   tar xvfz test.tgz hw/hw1
+   tar rvf test.tgz test
+   tar -C /lab6/tee -xvf test.tgz
+9.
+   
+

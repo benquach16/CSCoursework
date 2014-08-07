@@ -1,0 +1,24 @@
+
+If Homer Simpson is an idiot savant.
+
+C-e - Go to end of line
+C-Space -Set Mark
+M-b - go back one word
+C-w - kill region
+C-Space -Set Mark
+C-a - go to beginning of line
+C-x C-x -Go back to mark
+C-a - go to beginning of line
+C-o - add new line
+C-x C-s - Save
+C-x C-c - Quit
+
+
+
+\fo macro:
+(fset '\\fo
+   [?f ?o ?r ?( ?\; ?\; ?) ?\C-m ?{ ?\C-m ?} up ?\C-m ?\C-i])
+
+(fset '!S
+   "\C-s\C-i\C-m\C-?    ")
+C-u 0-x !S

@@ -1,0 +1,5 @@
+String s("Hello") //1 function call, 5 iterations, 0 copies made, 5 memory allocated O(n) time
+String t("There") //1 function call, 5 iterations, 0 copies made, 5 memory allocated O(n) time
+s = s + t	  //2 function calls, 15 iterations, 1 copies made, 10 memory allocated O(n) time
+s += t	//1 function call, 10 iterations, 0 copies made, 5 memory allocated O(n) time
+

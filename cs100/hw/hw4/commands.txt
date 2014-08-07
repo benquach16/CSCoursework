@@ -1,0 +1,8 @@
+1. grep -n -H -r [01-10] . *.cpp
+2. grep -r "<<" . *.cpp *.h
+3. sed -i '^$/d' foo.cpp
+4. find ~ *.o *.out | xargs -l mv ~/.trash
+5. find /bin/
+6. find ~/ | awk '{str=$0; if(gsub("[a-z]","")>=20)print str}'
+
+
